@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
+  <title>Contact Us - Bob Summers Landscaping</title>
+</head>
+<body>
+  <div id="wrapper">
+  <header>
+    <div class="topbar navbar navbar-expand-lg navbar-light bg-light sticky-top" role="navigation">
+    <form >
+      <label class="topbarlabel" for="qoute"> Request a Free Quote:</label>
+      <input class="topbaremail" type="email" id="qoute" placeholder="Enter your email here..." required>
+      <input class="topbarbutton" type="submit" value="Send Request">
+    </form>
+  </div>
+      <img class="center" alt="This is a website logo" src="images/logott.png" width="200" height="150">
+    <!--  Nav bar code-->
+      <nav>
+        <ul>
+           <li><a title="Home Page" href="index.html"  aria-haspopup="true">Home</a></li>
+           <li><a title="Bob Summers Services" href="services.html">Services</a>  </li>
+           <li> <a title="Past Projects" href="pastprojects.html">Past Projects</a></li>
+           <li><a title="Landscaping Tips" href="Tips.html">Landscaping Tips</a> </li>
+           <li><a title="About Us" href="aboutus.html">About Us</a> </li>
+           <li><a title="Contact Us" href="contactus.html">Contact Us</a> </li>
+        </ul>
+      </nav>
+        <img alt="bgImage" src="images/background6.jpg">
+      </header>
+    <div class="container addressbg">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="fit"> Location:</h2>
+        <address> xxx - xxx <br> Canada <br> L7A-XYZ</address>
+        </div>
+        <div class="col-6">
+          <h2 class="fit"> Contact:</h2>
+        <address> xxx - xxx - xxxx<br>bobsummers@domain.com</address>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <form onsubmit="return validation();">
+            <fieldset>
+              <legend>We'd love to hear from you, please drop us a line if you've any query.</legend>
+
+                  <label for="fname">First Name<em>*</em></label>
+                  <input type="text"  name="fname" id="fname" placeholder="Enter your first name here..." autofocus ><br><br>
+                  <h2 id="error">&nbsp;</h2>
+                  <label for="lname">Last Name<em>*</em></label>
+                  <input type="text"  name="lname" id="lname" placeholder="Enter your last name here..." ><br><br>
+                  <h2 id="error1">&nbsp;</h2>
+                  <label for="email">Email Address<em>*</em></label>
+                  <input type="email" name="email" id="email" placeholder="Enter your email here..." ><br><br>
+                  <h2 id="error2">&nbsp;</h2>
+                  <label for="subject">Select Subject<em>*</em></label>
+                  <select name="subject" id="subject" required>
+                  <option value="" selected disabled hidden>Choose here</option>
+                  <option value="Sales">Sales</option>
+                  <option value="Testimonials">Testimonials</option>
+                  <option value="Quote">Quote</option>
+                  <option value="General">General</option>
+                  </select><br><br>
+                  <label for="message">Message<em>*</em></label>
+                  <textarea oninput="textalert()"  maxlength="150" onkeyup="countC(this);" name="message" id="message" cols="27" rows="4"  placeholder="Enter your message here..."></textarea>
+                    <p id="count">0 Characters Entered.</p>
+                          <h2 id="error3">&nbsp;</h2>
+                  <input class="mbutton" id="send" type="submit" value="SEND"><br><br>
+          </fieldset>
+      </form>
+  </div>
+    <footer>
+    <p class="copyright">&#169; 2021  Bob Summers Landscaping &#124; All Rights Reserved.</p>
+    <p> Follow us @: <img alt="Facebook Logo" src="images/fblogo.png" width="60" height="60"/> <img alt="Instagram Logo" src="images/instagram.png" width="60" height="60"/></p>
+
+  </footer>
+  </div>
+
+<script src="js/jquery.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/validations.js"></script>
+</body>
+</html>
