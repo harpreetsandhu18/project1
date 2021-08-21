@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Coding Depot - Contact Us (Harpreet Singh)</title>
+</head>
+
+<body>
+    <!-- Nav Bar Begins -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand namesize" href="index.html">
+                <img src="images/logo3.png" alt="Logo of Coding Depot" class="d-inline-block align-text-top">Coding Depot
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active align-text-top" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="code25.html">Coding for Grade 2 to 5</a></li>
+                            <li><a class="dropdown-item" href="code612.html">Coding for Grade 6 to 12</a></li>
+                            <li><a class="dropdown-item" href="vedicm.html">Vedic Maths Classes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="price.html">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="testimonials.html">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="mx-2">
+                    <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-success btn-sm">Sign Up</button>
+                </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <a href="courses.html"><button class="btn btn-dark btn-lg search-button" type="submit">Search</button></a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Bar ends -->
+    <!-- hero image and Call to action Image begins-->
+    <div class="cantainer">
+        <img src="images/slide1.jpeg" class="img-fluid hpImage w-100 heroimg" alt="heroimage">
+        <div class="container-fluid call-heading">
+            <p class="h1">1:1 Online <br/> Coding Classes</p>
+            <span class="h4">Book your free demo class now.<br/>We believe in learning by doing. <br />Pay per class. Each class is for 1 hour and 30 minutes.<span>
+            <br /><br />  <a href="contactus.html"><button type="button" class="btn btn-outline-success btn-lg call-button">Request you Free Demo</button></a>
+          </div>
+        </div>
+  <!-- hero image ends -->
+<main>
+  <h2>Connect with us... let's talk about it...</h2>
+  <section>
+    <div class="container">
+        <div class="row">
+          <form action="php/emailcode.php" method="post" class="contact-form">
+            <fieldset>
+              <label for="fname">First name:</label><label class="symbol">*</label><br>
+              <input type="text" id="fname" name="fname" required autofocus><br>
+              <label for="lname">Last name:</label><label class="symbol">*</label><br>
+              <input type="text" id="lname" name="lname" required><br>
+              <label for="email">Email address:</label><label class="symbol">*</label><br>
+              <input type="email" id="email" name="email" required><br>
+              <label for="subject">Subject:</label><label class="symbol">*</label><br>
+              <select id="subject" name="subject" required>
+                <option value="" selected disabled hidden>Select here</option>
+                <option value="fans">Coding classes grade 2 to 6</option>
+                <option value="interviews">Codeing classes grade 7 to 12</option>
+                <option value="sponsorships">Vedic Maths classes </option>
+                <option value="opportunities">Career Opportunities with us.</option>
+                <option value="others">Others</option>
+              </select><br>
+              <label for="message">Message:</label><label class="symbol">*</label><br>
+              <textarea id="message" name="message" rows="10" cols="30" required></textarea><br>
+              <input type="submit" value="Send Message" class="submitButton">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <h5>Coding Depot Inc. &copy All Rights Reserved .</h5>
+            <p> Website designed by: Harpreet Singh - 201908442</p>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

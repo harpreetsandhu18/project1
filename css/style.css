@@ -58,6 +58,30 @@ footer {
     color: aliceblue;
 }
 
+.call-heading-aboutus {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    color: #94ad0e;
+    font-weight: bold;
+    background-color: cornsilk !important;
+    opacity: 80%;
+    width: 400px;
+    height: 230px;
+}
+
+.call-button-aboutus {
+    color: black;
+    font-weight: bold;
+    border-color: #bfd741;
+    transition: background-color 2s;
+}
+
+.call-button-aboutus:hover {
+    color: black;
+    background-color: #bfd741;
+}
+
 .call-button {
     color: white;
     border-color: aliceblue;
@@ -72,4 +96,100 @@ footer {
 .search-button:hover {
     color: black;
     background-color: #bfd741;
+}
+
+.pricepara {
+    text-align: center !important;
+}
+
+.accordian-color {
+    color: #94ad0e !important;
+    font-size: 22px;
+}
+
+.card {
+    position: relative;
+    float: left;
+    margin-left: 100px;
+    width: 350px !important;
+    height: 500px;
+    text-align: center;
+    border-radius: 20%;
+    background-color: #94ad0e;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: linear-gradient(to top, rgba(191, 215, 65, 0.08), rgba(191, 215, 65, 0.3)), lightgrey;
+}
+
+
+/* Contact Page Styles */
+
+
+/* Style for required mark (*) */
+
+.symbol {
+    color: #8b1c27;
+    margin-left: 5px;
+}
+
+
+/* Styles for contact form */
+
+#form h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.contact-form {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    width: 500px;
+    float: left;
+    color: #8EC757;
+}
+
+input {
+    margin: 10px 0px 10px 0px;
+    width: 500px;
+}
+
+label {
+    font-size: 20px;
+}
+
+select {
+    width: 500px;
+    height: 35px;
+    margin: 10px 0px 10px 0px;
+}
+
+option {
+    font-size: 20px;
+}
+
+textarea {
+    width: 500px;
+    margin: 10px 0px 10px 0px;
+}
+
+.submitButton:hover {
+    background-color: #8b1c27;
+    color: white;
+}
+
+.submitButton {
+    border-radius: 40px;
+    color: #8b1c27;
+    background: linear-gradient(to top, rgba(191, 215, 65, 0.08), rgba(191, 215, 65, 0.3)), lightgrey;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 576px) {
+    .heroimg {
+        height: 450px;
+    }
 }
