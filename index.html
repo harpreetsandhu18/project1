@@ -1,76 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Oswald&family=Roboto&display=swap" rel="stylesheet">
-    <title>Harpreet Singh's - Landscaping Services</title>
-</head>
-
-<body>
-    <div id="wrapper">
-        <header>
-            <div class="topbar navbar navbar-expand-lg navbar-light bg-light sticky-top" role="navigation">
-                <form>
-                    <label class="topbarlabel" for="qoute"> Request a Free Quote:</label>
-                    <input class="topbaremail" type="email" id="qoute" placeholder="Enter your email here..." required>
-                    <input class="topbarbutton" type="submit" value="Send Request">
-                </form>
-            </div>
-            <img class="center" alt="This is a website logo" src="images/logott.png" width="200" height="150">
-            <!--  Nav bar code-->
-            <nav>
-                <ul>
-                    <li><a title="Home Page" href="index.html" aria-haspopup="true">Home</a></li>
-                    <li><a title="Bob Summers Services" href="services.html">Services</a> </li>
-                    <li> <a title="Past Projects" href="pastprojects.html">Past Projects</a></li>
-                    <li><a title="Landscaping Tips" href="Tips.html">Landscaping Tips</a> </li>
-                    <li><a title="About Us" href="aboutus.html">About Us</a> </li>
-                    <li><a title="Contact Us" href="contactus.html">Contact Us</a> </li>
+    <title>Coding Depot - Home Page(Harpreet Singh)</title>
+  </head>
+  <body>
+    <header>
+      <!-- Nav Bar Begins -->
+      <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand namesize" href="#">
+      <img src="images/logo3.png" alt=""class="d-inline-block align-text-top">Coding Depot
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active align-text-top" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Coding for Grade 2 to 5</a></li>
+                            <li><a class="dropdown-item" href="#">Coding for Grade 6 to 12</a></li>
+                            <li><a class="dropdown-item" href="#">Vedic Maths Classes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Price</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  align-text-top" aria-current="page" href="#">Contact Us</a>
+                    </li>
                 </ul>
-            </nav>
-            <img alt="bgImage" src="images/background.jpg" class="floatimg">
-            <div>
-                <h1><span>What Our Clients Are Saying</span></h1>
-            </div>
-        </header>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img class="testimg center" src="images/testi1.jpg" alt="Image of Testimonials">
-                    <h2> The Moore Family </h2>
-                    <p class="tips">"Thank you for the inhalation of our driveway and front steps. The job turned out beautifully! It looks even better than I imagined. We have received many favorable comments regarding your workers and the end product; our neighbours
-                        were very impressed with the work ethic of everyone. You did everything that you stated you would do, when you stated you would do it, and went above and beyond to ensure the job was perfect. I am very grateful for your honesty,
-                        integrity and skills."</p>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success btn-lg" type="submit">Search</button>
+                </form>
+
+                <!--
+                <div class="mx-2">
+                    <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-outline-danger">Sign Up</button>
                 </div>
+                -->
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img class="testimg center" src="images/background5.jpg" alt="Image of Testimonials">
-                    <h2> The Jones Family </h2>
-                    <p class="tips">"We couldn't be any more pleased with the appearance and workmanship of the job you completed for us. Your design suggestions and layout were creative and yet totally appropriate for the look and layout of our house and property. It
-                        all integrates so well that one person didn't notice we had landscaping recently done; they thought it had been there the whole time!"</p>
-                </div>
-            </div>
+    </nav>
+    <!-- Nav Bar ends -->
+      <!-- hero image and Call to action Image begins-->
+      <div class="cantainer">
+                <img src="images/slide3.jpeg" class="img-fluid hpImage w-100" alt="Youtube">
         </div>
-        <footer>
-            <p class="copyright">&#169; 2021 Bob Summers Landscaping &#124; All Rights Reserved.</p>
-            <p> Follow us @: <img alt="Facebook Logo" src="images/fblogo.png" width="60" height="60" /> <img alt="Instagram Logo" src="images/instagram.png" width="60" height="60" /></p>
-        </footer>
+        <div class="container-fluid call-heading">
+            <p class="h1 heroheader">1:1 Online  <br/> Coding Classes</p>
+            <span class="h4">Book your free demo class now.<br/>We believe in learning by doing. <br />Pay per class. Each class is for 1 hour and 30 minutes.<span>
+          <br /><br />  <button type="button" class="btn btn-outline-success">Request a Demo/Quote</button>
+        </div>
+  <!-- hero image ends -->
+</header>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-    </div>
-    <!-- container -->
-    <script src="js/jquery.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
-
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
